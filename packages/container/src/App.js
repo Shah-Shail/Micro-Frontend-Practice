@@ -1,11 +1,5 @@
 import React, { lazy, Suspense, useEffect, useState } from "react";
-import {
-  BrowserRouter,
-  Route,
-  Switch,
-  Router,
-  Redirect,
-} from "react-router-dom";
+import { Route, Switch, Router, Redirect } from "react-router-dom";
 import {
   StylesProvider,
   createGenerateClassName,
